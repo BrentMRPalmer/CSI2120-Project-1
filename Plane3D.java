@@ -44,7 +44,7 @@ public class Plane3D {
      * A Point3D object that represents the third point on the plane. 
      */
 	public Plane3D(Point3D p1, Point3D p2, Point3D p3) {
-		//Assuming plane in Ax + By + Cz + = D form
+		//Assuming plane in Ax + By + Cz = D form
 		//calculating vector 1 (p2p1)
 		double x1 = p2.getX() - p1.getX();
 		double y1 = p2.getY() - p1.getY();
